@@ -1,0 +1,171 @@
+
+
+h1 {
+	font-size: 200%;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+ body{
+ 	background-color: #8f6927;
+ 	font-size: 110%;
+ }
+ 
+ p {
+ line-height: 1.45;
+ 
+ }
+ 
+ a {
+ color: #573A43;
+ text-decoration: none; 
+ 
+ }
+  
+div{
+
+	border-width: 1px;
+	border-style: transparent;
+	border-color:  #000000;
+	background-color: #F5EDE6;
+
+}
+
+#container {
+
+	width: 75%;
+	margin: auto;
+	margin-top: 25px;
+
+}
+
+#main1{
+	width: 75%;
+	margin: auto;
+	clear: both;
+	padding: 2px;
+	font-size: 90%;
+
+}
+
+#mainstreet {
+	width: 75%;
+	margin: auto;
+	clear: both;
+	padding: 1px;
+	font-size: 90%;
+
+}
+
+#main3{
+	width: 75%;
+	margin: auto;
+	clear: both;
+	padding: 30px;
+	font-size: 90%;
+
+}
+
+blockquote {
+
+	font-style: italic;
+	color: #CD1414;
+	padding: 30px;
+
+}
+
+#priority {
+	background-color: #E3DBB3;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+
+}
+
+#footer{
+	text-align: center;
+	font-size: 70%;
+	padding: 15px;
+
+}
+
+/*------class section-----------*/
+
+.lowercase {
+	text-transform: lowercase;
+	
+	}
+	
+.uppercase {
+	text-transform: uppercase;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+img.snapshot {
+	border-width: 10px;
+	border-style: solid;
+	border-color: #573A43;
+	margin: 10px;   /*   note: Top px Right px Bottom px Left px  */	
+	-moz-transform: rotate(+5deg);   /* for firefox */
+	-webkit-transform: rotate(+5deg);  /* for chrome and safari*/
+	-o-transform: rotate(+5deg);	  /* for opera */
+	-ms-transform: rotate(+5deg);     /* for explorer */
+		
+}
+
+img.notilt {
+	border-width: 10px;
+	border-style: solid;
+	border-color: #573A43;
+	margin: 10px;   /*   note: Top px Right px Bottom px Left px  */	
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+
+}
+
+
+
+
+/*--------image spacing------------*/
+
+#footer img {
+	margin: 5px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+	
+
+}
+
+#mainstreet img {
+	margin: 7px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+
+}
+
+#main3 img {
+	margin: 7px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+}
+
+/*--------- hover link ----------*/
+
+#priority a {
+	color: #000000;
+	
+}
+
+#priority a:hover {
+	color: #ffffff;
+}
+
